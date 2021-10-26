@@ -76,10 +76,14 @@ main {
 
 section {
 background-color: white;
-width: 50%;
+width: auto;
 margin: auto;
 border-radius: 10px;
 box-shadow: 0px 0px 2px 2px grey;
+}
+
+p {
+  text-align: center;
 }
 
 .section_content {
@@ -92,6 +96,7 @@ box-shadow: 0px 0px 2px 2px grey;
   display: block;
 }
 
+/* Footer designs */
 footer {
   background-color: rgba(98, 44, 230, 0.57);
   color: white;
