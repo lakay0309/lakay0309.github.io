@@ -71,27 +71,24 @@ nav {
 
 /* body of the page */
 main {
-  height: 400px;
+  height: 500px;
 }
 
 section {
 background-color: white;
-width: auto;
+width: 50%;
 margin: auto;
 border-radius: 10px;
 box-shadow: 0px 0px 2px 2px grey;
 }
 
-p {
+.section_content {
+  padding: 10px;
   text-align: center;
 }
 
-.section_content {
-  padding: 10px;
-}
-
 .section_img {
-  width: 50%;
+  width: 200px;
   margin: auto;
   display: block;
 }
