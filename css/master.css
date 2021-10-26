@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: fantasy;
+}
+
+header {
+  background-color: darkorange;
+  color: white;
+  overflow: auto;
+  padding: 15px;
+}
+
+.header_left {
+  float: left;
+}
+
+.header_right {
+  float: right;
+}
+
+main {
+  clear: both;
+  height: 600px;
+}
+
+hr {
+  text-decoration: none;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  overflow: auto;
+  padding: 15px;
+}
+
+.footer_left {
+  width: 30%;
+  float: left;
+}
+
+.footer_right {
+  width: 60%;
+  float: right;
+  border-left: 2px solid white;
+  padding-left: 5px;
+}
