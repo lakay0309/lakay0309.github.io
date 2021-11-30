@@ -95,7 +95,7 @@ box-shadow: 0px 0px 2px 2px grey;
 }
 
 footer {
-  background-color: rgba(98, 44, 230, 0.57);
+  background-color: #7c51a1;
   color: white;
   overflow: auto;
   padding: 15px;
@@ -135,3 +135,49 @@ footer {
   grid-column-start: 1;
   grid-column-end: 1;
 } */
+
+/*Form styling */
+input[type=text] {
+  border:none;
+  border: 1px solid black;
+  border-radius: 2px;
+  }
+
+
+input[type=submit], input[type=reset] {
+  color: #b59930;
+  padding: 10px;
+  background-color:white;
+  border:2px solid #7c51a1;
+}
+
+input[type=file]{
+  background-color: red;
+}
+
+label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+form {
+  padding:20px;
+  border: 5px solid rgb(244, 95, 197);
+  color: black;
+  border-radius: 2px;
+}
+
+option {
+  padding:5px;
+}
+textarea {
+  border: none;
+  border: 5px solid #7c51a1;
+  border-radius: 2px;
+  width: 300px;
+}
+
+#form_title {
+  margin-bottom: 15px;
+  text-align: center;
+}
