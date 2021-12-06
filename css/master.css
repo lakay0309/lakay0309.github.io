@@ -4,6 +4,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 /* Header and logo */
@@ -68,17 +69,18 @@ nav div {
 /* body of the page */
 main {
   /* height: 1000px; */
-  clear: both;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .section_content {
 background-color: white;
 width: 50%;
 text-align: center;
-margin: auto;
-border-radius: 10px;
-padding: 10px;
-box-shadow: 0px 0px 2px 2px grey;
+margin: 0 auto;
+border-radius: 5px;
+padding: 5px;
+box-shadow: 2px 2px 2px 0px grey;
 }
 
 .section_img {
@@ -151,30 +153,30 @@ input[type=submit], input[type=reset] {
   border:2px solid #7c51a1;
 }
 
-input[type=file]{
-  background-color: red;
-}
-
 label {
   font-style: italic;
   font-weight: bold;
 }
 
 form {
-  padding:20px;
+  padding:10px;
   border: 5px solid rgb(244, 95, 197);
   color: black;
   border-radius: 2px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 option {
   padding:5px;
 }
+
 textarea {
   border: none;
   border: 5px solid #7c51a1;
   border-radius: 2px;
-  width: 300px;
+  width: 200px;
 }
 
 #form_title {
